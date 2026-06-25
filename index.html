@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>電気設備計算ツール</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="theme-color" content="#0f766e">
+<style>
+:root{--bg:#f4f7fb;--card:#fff;--line:#cbd5e1;--text:#0f172a;--muted:#64748b;--blue:#1d4ed8;--teal:#0f766e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif}
+header{background:linear-gradient(120deg,#1d4ed8,#0f766e);color:white;padding:24px 18px}
+header h1{margin:0;font-size:24px}
+header p{margin:8px 0 0;font-size:14px;opacity:.95}
+main{max-width:920px;margin:auto;padding:18px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.card{background:white;border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 8px 20px rgba(15,23,42,.05)}
+.app{display:block;text-decoration:none;color:inherit;transition:.15s transform,.15s box-shadow}
+.app:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(15,23,42,.10)}
+.icon{width:48px;height:48px;border-radius:14px;display:flex;align-items:center;justify-content:center;color:white;font-weight:900;font-size:22px;margin-bottom:12px}
+.blue{background:#1d4ed8}.teal{background:#0f766e}.gray{background:#64748b}
+h2{font-size:18px;margin:0 0 8px}
+p{font-size:14px;line-height:1.65;margin:0;color:var(--muted)}
+.badge{display:inline-block;margin-top:12px;padding:5px 10px;border-radius:999px;background:#e0f2fe;color:#075985;font-size:12px;font-weight:800}
+footer{max-width:920px;margin:0 auto;padding:0 18px 24px;color:var(--muted);font-size:12px}
+.version{position:fixed;right:12px;bottom:12px;background:#111827;color:white;border-radius:999px;padding:7px 10px;font-size:12px;opacity:.9}
+@media(max-width:720px){.grid{grid-template-columns:1fr}header h1{font-size:21px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>電気設備計算ツール</h1>
+  <p>電圧降下・幹線選定、集合住宅幹線計算書への入口です。</p>
+</header>
+<main>
+  <div class="grid">
+    <a class="card app" href="https://hara-den-ctrl.github.io/VoltageDropSelector/">
+      <div class="icon blue">V</div>
+      <h2>電圧降下・幹線/分岐回路選定</h2>
+      <p>電圧降下、許容電流、配管補正、MCCB整合、幹線サイズ自動判定を行います。</p>
+      <span class="badge">VoltageDropSelector</span>
+    </a>
+    <a class="card app" href="https://hara-den-ctrl.github.io/ApartmentFeederCalculator/">
+      <div class="icon teal">A</div>
+      <h2>集合住宅 幹線計算書</h2>
+      <p>L1〜L6分岐幹線、一次幹線A/B、引込幹線を同時計算します。</p>
+      <span class="badge">ApartmentFeederCalculator</span>
+    </a>
+    <div class="card">
+      <div class="icon gray">＋</div>
+      <h2>今後追加予定</h2>
+      <p>ケーブル許容電流検索、MCCB選定、計算書PDFテンプレートなどを追加予定。</p>
+      <span class="badge">準備中</span>
+    </div>
+  </div>
+</main>
+<footer>
+  <p>各アプリは別リポジトリで管理されています。このページは入口専用のポータルPWAです。</p>
+</footer>
+<div class="version">Portal Ver.1.0</div>
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js").catch(()=>{});
+}
+</script>
+</body>
+</html>
