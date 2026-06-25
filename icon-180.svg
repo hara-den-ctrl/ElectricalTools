@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
-<rect width="180" height="180" rx="32.4" fill="#0f766e"/>
-<rect x="21.599999999999998" y="21.599999999999998" width="136.8" height="136.8" rx="21.599999999999998" fill="white"/>
-<text x="50%" y="45%" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="50.400000000000006" font-weight="700" fill="#1d4ed8">ET</text>
-<text x="50%" y="68%" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="18.0" font-weight="700" fill="#0f172a">Tools</text>
+<rect width="180" height="180" rx="36.0" fill="#0f766e"/>
+<rect x="21.599999999999998" y="21.599999999999998" width="136.8" height="136.8" rx="23.400000000000002" fill="white"/>
+<text x="50%" y="43%" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="50.400000000000006" font-weight="800" fill="#1d4ed8">ET</text>
+<text x="50%" y="68%" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="16.2" font-weight="700" fill="#0f172a">Portal</text>
 </svg>

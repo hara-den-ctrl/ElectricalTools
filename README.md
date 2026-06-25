@@ -1,12 +1,18 @@
-# ElectricalTools Portal
+# ElectricalTools Portal Ver.2.0
 
-電気設備計算ツールの入口用PWAです。
+電気設備設計ツールの入口用ポータルPWAです。
 
-## 掲載アプリ
+## 登録済みツール
 
 - VoltageDropSelector
 - ApartmentFeederCalculator
+- HouseLoadCalculator
 
-## 公開URL
+## Ver.2.0
 
-https://hara-den-ctrl.github.io/ElectricalTools/
+- 一般住宅 負荷計算書を正式追加
+- カードデザイン刷新
+- スマホ表示改善
+- 更新履歴追加
+- バージョン表示追加
+- PWAキャッシュ更新

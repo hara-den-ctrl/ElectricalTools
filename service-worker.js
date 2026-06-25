@@ -1,6 +1,6 @@
-const APP_VERSION = "1.0";
-const CACHE_NAME = `ElectricalTools-v${APP_VERSION}`;
-const ASSETS = ["./", "./index.html", "./manifest.json", "./icon-180.svg", "./icon-192.svg", "./icon-512.svg"];
+const APP_VERSION = "2.0";
+const CACHE_NAME = `ElectricalTools-Portal-v${APP_VERSION}`;
+const ASSETS = ["./", "./index.html", "./manifest.json", "./service-worker.js", "./icon-180.svg", "./icon-192.svg", "./icon-512.svg"];
 
 self.addEventListener("install", event => {
   self.skipWaiting();
