@@ -1,4 +1,4 @@
-# ElectricalTools Portal Ver.2.0
+# ElectricalTools Portal Ver.2.1
 
 電気設備設計ツールの入口用ポータルPWAです。
 
@@ -8,11 +8,33 @@
 - ApartmentFeederCalculator
 - HouseLoadCalculator
 
-## Ver.2.0
+## 利用条件
 
-- 一般住宅 負荷計算書を正式追加
-- カードデザイン刷新
-- スマホ表示改善
-- 更新履歴追加
-- バージョン表示追加
-- PWAキャッシュ更新
+このソフトウェアは、電気設備設計業務の効率化を目的として無料公開しています。
+
+### 許可
+
+- 個人利用
+- 業務利用
+- 商用現場での利用
+- 社内利用
+- 印刷
+- PDF出力
+
+### 禁止
+
+- ソースコードの改変
+- ソースコードの再配布
+- 改変版の公開
+- コピーして別サイトで公開
+- 有料販売
+- 自作品として公開
+- 著作権表示・ライセンス表示の削除
+
+詳細は `LICENSE` を確認してください。
+
+## License
+
+Hara Den Control Free License 1.0 (HDCF-1.0)
+
+© 2026 Hara Den Control
