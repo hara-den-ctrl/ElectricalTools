@@ -1,4 +1,4 @@
-const APP_VERSION = "2.2";
+const APP_VERSION = "2.3";
 const CACHE_NAME = `ElectricalTools-Portal-v${APP_VERSION}`;
 const ASSETS = ["./", "./index.html", "./manifest.json", "./service-worker.js", "./README.md", "./LICENSE", "./NOTICE", "./icon-180.svg", "./icon-192.svg", "./icon-512.svg"];
 self.addEventListener("install", event => { self.skipWaiting(); event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS))); });

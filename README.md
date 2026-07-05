@@ -38,3 +38,8 @@
 Hara Den Control Free License 1.0 (HDCF-1.0)
 
 © 2026 Hara Den Control
+
+
+## 使用上の注意
+
+本ツールは参考計算ツールです。計算結果に伴う設計・施工・申請・契約・運用上のトラブルは利用者自身の責任で最終判断してください。Hara Den Control は責任を負いません。
